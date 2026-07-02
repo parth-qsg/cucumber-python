@@ -1,3 +1,6 @@
+"""Page Objects package."""
+
+from .login_page import LoginPage  # noqa: F401
 """Auto-discover and import all page modules so PageFactory.register() calls are executed."""
 
 import importlib
